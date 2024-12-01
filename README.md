@@ -17,7 +17,7 @@ The server implements five tools that are based on TradeStation API:
 4. tradestation_get_positions - Same as [TradeStation GetPositions](https://api.tradestation.com/docs/specification/#tag/Brokerage/operation/GetPositions)
 5. tradestation_get_balances - Same as [TradeStation GetBalances](https://api.tradestation.com/docs/specification/#tag/Brokerage/operation/GetBalances)
 
-see the exact schemas in the definition file [here](./portfolio_service/brokers/tradestation/tools.py)
+see the exact schemas in the definition file [here](./src/portfolio_service/brokers/tradestation/tools.py)
 ## Configuration
 
 The server is configured via environment variables:
